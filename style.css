@@ -446,7 +446,7 @@ body {
 }
 .fourth-block .more {
     height: auto;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/0.8;
     position: relative;
     background-image: linear-gradient(to right, #FF8D31E5, #C8AB96E5);
     display: flex;
