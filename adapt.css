@@ -1,0 +1,500 @@
+@media (max-width: 1600px) {
+    .block-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .first-block {
+        height: 760px;
+    }
+    .first-block .nav-contacts-holder {
+        margin-right: 40px;
+    }
+    .first-block .logo-img-holder {
+        width: 355px;
+        height: 108px;
+        padding-left: 40px;
+        border-radius: 0px 0px 40px 0px;
+    }
+    .first-block .logo-img {
+        height: 68px;
+    }
+    .first-block .first-block-bg {
+        border-radius: 30px;
+    }
+    .first-block .nav-menu-text {
+        font-size: 16px;
+    }
+    .first-block .nav-menu-holder {
+        gap: 30px;
+    }
+    .first-block .number-holder {
+        padding: 12px 24px; 
+        margin-right: 10px;
+    }
+    .first-block .number-holder em {
+        font-size: 16px;
+    }
+    .first-block .middle-block {
+        height: 329px;
+        width: 538px;
+        margin-left: 40px;
+    }
+    .first-block .a-button {
+        height: 48px;
+        width: 244px;
+        font-size: 14px;
+    }
+    .first-block .bottom-text-holder {
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    .first-block .bottom-text-holder p {
+        font-size: 16px;
+    }
+    .first-block .bottom-block-icons {
+        margin-top: 10px;
+    }
+    .first-block .bottom-block-icons img {
+        height: 50px;
+    }
+
+
+    .second-block {
+        padding-bottom: 80px;
+        padding-top: 160px;
+    }
+    .second-block .block-text p {
+        font-size: 34px;
+        line-height: 51px;
+    }
+    .second-block .block-text img {
+        height: 50px;
+    }
+    .second-block .button {
+        padding: 12px 24px 12px 24px;
+    }
+    .second-block .button em{
+        font-size: 14px;
+    }
+
+
+    .third-block .third-block-content {
+        margin-top: 180px;
+        height: 571px;
+    }
+    .third-block .text-holder .number {
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .third-block .text-holder .text-info {
+        font-size: 16px;
+        margin-bottom: 37px;
+    }
+    .third-block .text-holder .button {
+        max-width: 427px;
+        padding: 12px 24px 12px 24px;
+        border-radius: 40px;
+    }
+
+
+    .fourth-block {
+        margin-top: 160px;
+        margin-bottom: 160px;
+    }
+    .fourth-block .head p {
+        font-size: 42px;
+        margin-bottom: 25px;
+    }
+    .fourth-block .controllers img{
+        width: 40px;
+        height: 40px;
+    }
+    .fourth-block .swiper-slide:nth-child(even of .row1margin){
+        margin-top: 40px !important;
+    }
+    .fourth-block .swiper-slide:nth-child(odd of .row1margin){
+        margin-top: 0px !important;
+    }
+    .fourth-block .swiper-slide:nth-child(even of .row2margin){
+        margin-top: 40px !important;
+    }
+    .fourth-block .swiper-slide:nth-child(odd of .row2margin){
+        margin-top: 0px !important;
+    }
+    .fourth-block .content-card p {
+        font-size: 16px;
+    }
+
+
+    .fifth-block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .fifth-block .head p {
+        font-size: 42px;
+    }
+    .fifth-block .content-card p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+
+    .sixth-block {
+        margin-top: 182px;
+    }
+    .sixth-block .text {
+        font-size: 34px;
+    }
+    .sixth-block .text img{
+        height: 50px;
+    }
+    .sixth-block .img-holder  {
+        width: 303px;
+    }
+    .sixth-block .friends-holder {
+        margin-top: 20px;
+    }
+    .sixth-block .first-row {
+        gap: 25px;
+    }
+    .sixth-block .sec-row {
+        gap: 25px;
+    }
+
+
+    .seventh-block .seventh-block-holder {
+        height: 260px;
+        margin-top: 160px;
+    }
+    .seventh-block .seventh-block-img {
+        height: 22px;
+    }
+    .seventh-block .menu-holder {
+        gap: 25px;
+    }
+    .seventh-block .contacts {
+        font-size: 20px;
+    }
+    .seventh-block .info {
+        gap: 25px;
+        font-size: 14px;
+    }
+    .seventh-block .holder {
+        gap: 25px;
+    }
+
+    
+    
+}
+@media (max-width: 1365px) {
+    .block-padding {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+
+    .first-block {
+        height: 720px;
+    }
+    .first-block .nav-contacts-holder {
+        margin-right: 32px;
+    }
+    .first-block .first-block .logo-img-holder {
+        width: 270px;
+        height: 100px;
+        padding-left: 32px;
+        border-radius: 0px 0px 30px 0px;
+    }
+    .first-block .first-block .logo-img {
+        height: 60px;
+    }
+    .first-block .first-block .first-block-bg {
+        border-radius: 20px;
+    }
+    .first-block .nav-menu-holder {
+        display: none;
+    }
+    .first-block .nav-contacts-holder .menu {
+        display: block;
+    }
+    .first-block .nav-contacts-holder img {
+        max-height: 40px;
+        width: auto;
+    }
+    .first-block .middle-block {
+        margin-left: 32px;
+    }
+    .first-block .bottom-text-holder {
+        margin-right: 32px;
+    }
+    .first-block .bottom-block-icons img {
+        height: 40px;
+    }
+
+
+    .second-block {
+        padding-bottom: 60px;
+        padding-top: 120px;
+    }
+    .second-block .block-text p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .second-block .block-text img {
+        height: 40px;
+    }
+
+
+    .third-block .third-block-content {
+        margin-top: 140px;
+        height: 420px;
+    }
+    .third-block .text-holder .number {
+        font-size: 16px;
+    }
+    .third-block .text-holder .text-info {
+        font-size: 16px;
+    }
+
+
+    .fourth-block {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    .fourth-block .head p {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    
+    .fifth-block {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    
+    .sixth-block {
+        margin-top: 141px;
+    }
+    .sixth-block .text {
+        font-size: 24px;
+    }
+    .sixth-block .text img{
+        height: 40px;
+    }
+    
+
+    .seventh-block .seventh-block-holder {
+        height: 300px;
+        padding-top: 40px;
+        margin-top: 120px;
+    }
+    .seventh-block .menu-holder {
+        display: flex;
+        justify-content: space-between;
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+    .seventh-block .contacts {
+        margin-top: 0px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .seventh-block .margin {
+        margin-top: 10px;
+    }
+    .seventh-block .socials-holder {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        display: flex;
+        gap: 20px;
+    }
+    .seventh-block .info {
+        gap: 25px;
+    }
+    .seventh-block .holder {
+        gap: 25px;
+    }
+    .seventh-block .company {
+        display: flex;
+        grid-column: 2;
+        grid-row: 4;
+        font-size: 16px;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+}
+@media (max-width: 768px) {
+    .block-padding {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+    .first-block .nav-contacts-holder {
+        margin-right: 16px;
+    }
+    .first-block .logo-img-holder {
+        width: 116px;
+        height: 80px;
+        padding-left: 16px;
+        border-radius: 0px 0px 20px 0px;
+    }
+    .first-block .logo-img {
+        height: 40px;
+    }
+    .first-block .first-block-bg {
+        border-radius: 10px;
+    }
+    .first-block .number-holder {
+        display: none;
+    }
+    .first-block .middle-block {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: auto;
+    }
+    .first-block .text-block p {
+        margin-top: 10px;
+        display: block;
+    }
+    .first-block .round-mid-img-holder {
+        display: none;
+    }
+
+
+    .second-block {
+        padding-bottom: 40px;
+        padding-top: 100px;
+    }
+    .second-block .button-env {
+        padding: 10px;
+    }
+
+    
+    .third-block {
+        margin-top: 200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 30px
+    }
+
+
+    .fourth-block {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .fourth-block .head p {
+        margin-bottom: 20px;
+    }
+    .fourth-block .controllers {
+        display: none;
+    }
+    .fourth-block .content-card p {
+        margin-top: 10px;
+    }
+    .fourth-block .button {
+        
+        display: block;
+    }
+
+
+    .fifth-block {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .fifth-block .controllers {
+        display: none;
+    }
+    .fifth-block .head p {
+        font-size: 32px;
+        margin-bottom: 20px;
+        padding-right: 50px;
+    }
+
+
+    .sixth-block {
+        margin-top: 122px;
+    }
+    .sixth-block .text {
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px;
+    }
+    .sixth-block .text img{
+        height: 40px;
+    }
+    .sixth-block .img-holder  {
+        margin-top: 20px;
+        width: 180px;
+        height: 50px;
+    }
+    .sixth-block .first-row {
+        gap: 10px;
+    }
+    .sixth-block .sec-row {
+        padding-left: 10vh;
+        gap: 10px;
+    }
+    .sixth-block .friends-holder img {
+        transform: scale(0.6);
+    }
+    .sixth-block .content-card {
+        padding: 15px 20px;
+    }
+
+
+    .seventh-block .seventh-block-holder {
+        height: 496px;
+        padding-top: 40px;
+        margin-top: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .seventh-block .menu-holder {
+        display: none;
+    }
+    .seventh-block .menu-768 {
+        display: flex;
+    }
+    .seventh-block .contacts {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .seventh-block .socials-holder {
+        margin-bottom: 0px;
+    }
+    .seventh-block .margin {
+        margin-top: 10px;
+    }
+    .seventh-block .info {
+        grid-row: 4 / span 5;
+        align-items: flex-end;
+        font-size: 14px;
+        flex-direction: column-reverse;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .seventh-block .holder {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .seventh-block .info-text {
+        max-width: 150px;
+    }
+    .seventh-block .company {
+        grid-column: 2/ span 2;
+        grid-row: 5;
+        font-size: 14px;
+    }
+    
+    
+}

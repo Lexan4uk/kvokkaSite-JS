@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset-styles.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./adapt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script type="module" src="./script.js"></script>
+    <script src="./script-slider.js" defer></script>
+
+</head>
+<body>
+    <div class="first-block">
+        <div class="first-block-bg">
+            <img class="first-block-img" src="./src/1block-bg.png"/>
+        </div>
+        <div class="nav-holder">
+            <picture class="logo-img-holder">
+                <source srcset="./src/1block-logo360.png" media="(max-width: 768px)"/>
+                <img class="logo-img" src="./src/1block-logo.png"/>
+            </picture>
+            <div class="nav-menu-holder">
+                <a href="" class="nav-menu-text weight-500 white ">Пакеты</a>
+                <a href="" class="nav-menu-text weight-500 white">Пленки</a>
+                <a href="" class="nav-menu-text weight-500 white">О нас</a>
+                <a href="" class="nav-menu-text weight-500 white">Услуги</a>
+                <a href="" class="nav-menu-text weight-500 white">Клиенту</a>
+                <a href="" class="nav-menu-text weight-500 white">Галерея</a>
+                <a href="" class="nav-menu-text weight-500 white">Контакты</a>
+            </div>
+            <div class="nav-contacts-holder">
+                <div class="number-holder">
+                    <em class="weight-700 white">+7 (4714) 82-00-44</em>
+                </div>
+                <img src="./src/1block-phone-ico.svg" class="pointer">
+                <img src="./src/1block-search-ico.svg" class="pointer">
+                <img src="./src/1block-menu-ico.svg" class="pointer menu">
+            </div>
+        </div>
+        <div class="middle-block">
+            <picture class="round-mid-img-holder">
+                <source srcset="./src/1block-round-mid-img1366.png" media="(max-width: 1600px)"/>
+                <img src="./src/1block-round-mid-img1920.png"/>
+            </picture>
+            <div class="text-block">
+                <picture class="text-mid-img-holder">
+                    <source srcset="./src/1block-text-mid-img360.png" media="(max-width: 768px)"/>
+                    <source srcset="./src/1block-text-mid-img1366.png" media="(max-width: 1600px)"/>
+                    <img src="./src/1block-text-mid-img1920.png"/>
+                </picture>
+                <p class="white size-16">производство комплексной упаковки</p>
+            </div>
+            <a href="" class="a-button">
+                <img class="button-ico" src="./src/1block-button-ico.svg">
+                <em class="button-text weight-700 white">ЗАКАЗАТЬ УПАКОВКУ</em>
+            </a>
+        </div>
+        <div class="bottom-text-holder">
+            <p class="white size-18">Идеально подходит для:</p>
+            <div class="bottom-block-icons">
+                <img src="./src/1block-bottom-ico-1.svg">
+                <img src="./src/1block-bottom-ico-2.svg">
+                <img src="./src/1block-bottom-ico-3.svg">
+                <img src="./src/1block-bottom-ico-4.svg">
+            </div>
+        </div>
+    </div>
+    
+    <div class="second-block">
+        <div class="block-text block-padding weight-500">
+            <p>
+                Наша компания на рынке упаковки <img src="./src/2block-ico-1.svg"> сравнительно недавно,<br>
+                но за это время мы смогли завоевать доверие наших клиентов.<br>
+                Наша цель – обеспечить клиента <img src="./src/2block-ico-2.svg"> качественной комплексной упаковкой<br>
+                за короткий промежуток времени.
+            </p>
+            <p>
+                В работе мы используем нестандартные способы для решения задач,<br>
+                ценим качество <img src="./src/2block-ico-3.svg">, оперативность, надёжность <img src="./src/2block-ico-4.svg"> и индивидуальный<br>
+                подход к каждому клиенту.
+            </p>
+        </div>
+        <div class="button-env">
+            <div class="button">
+                <em class="weight-700 size-16 white">О КОМПАНИИ</em>
+            </div>
+        </div>
+    </div>
+
+    <div class="third-block">
+        <div class="third-block-content block-padding">
+            <div class="image-block">
+                <img src="./src/3block-pic-1.png">
+            </div>
+            <div class="text-block">
+                <div class="border-holder">
+                    <div class="text-holder">
+                        <p class="number">01</p>
+                        <p class="text-info">заказ должен быть выполнен любой ценой в обещанные сроки с высоким уровнем качества продаваемого продукта</p>
+                        <a class="button white weight-700"><em>О ДОСТАВКЕ</em></a>
+                    </div>
+                </div>
+            </div>
+            <div class="circle">
+                <div id="imagesHolder">
+                    <img class="main-img" src="./src/3block-circle.svg" >
+                    <img class="mini-circle-1" src="./src/3block-mini-circle.svg">
+                    <img class="mini-circle-2" src="./src/3block-mini-circle.svg">
+                    <img class="mini-circle-3" src="./src/3block-mini-circle.svg">
+                    <img class="mini-circle-4" src="./src/3block-mini-circle.svg">
+                    <img class="arc-1" data-action="prodinfo" data-order="0" src="./src/3block-arc-1.svg">
+                    <img class="arc-2" data-action="prodinfo" data-order="1" src="./src/3block-arc-2.svg">
+                    <img class="arc-3" data-action="prodinfo" data-order="2" src="./src/3block-arc-3.svg">
+                    <img class="arc-4" data-action="prodinfo" data-order="3" src="./src/3block-arc-4.svg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth-block">
+        <div class="head block-padding">
+            <p>ФОТОГАЛЕРЕЯ</p>
+            <div class="controllers">
+                <img class="prev-btn-gal" src="./src/5block-back-icon.svg">
+                <img class="next-btn-gal" src="./src/5block-next-icon.svg">
+            </div>
+        </div>
+        <div class="swiper slider-gal">
+            <div class="swiper-wrapper grid">
+                <div class="swiper-slide row1margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img1.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row1margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img2.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row1margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img3.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row1margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img2.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row1margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img1.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row2margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img4.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row2margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img5.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row2margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img1.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row2margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img5.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+                <div class="swiper-slide row2margin">
+                    <div class="content-card">
+                        <div class="image-holder">
+                            <img src="./src/4block-img4.png">
+                        </div>
+                        <p>Подпись к фото</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <em class="weight-700 size-16 white">БОЛЬШЕ</em>
+        </div>
+    </div>
+
+    <div class="fifth-block block-padding">
+        <div class="head">
+            <p>СЕРТИФИКАТЫ И ДОКУМЕНТЫ</p>
+            <div class="controllers">
+                <img class="prev-btn" src="./src/5block-back-icon.svg">
+                <img class="next-btn" src="./src/5block-next-icon.svg">
+            </div>
+        </div>
+        <div class="swiper slider-1">
+            <div class="swiper-wrapper grid">
+                <div class="swiper-slide">
+                    <div class="content-card">
+                        <p>Сертификат соответствия продукции требованиям технических регламентов</p>
+                        <a class="download-holder black" href="./src/pdf/info.pdf" download>
+                            <em class="weight-700">PDF</em>
+                            <img src="./src/5block-download-icon.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-card">
+                        <p>Сертификат соответствия продукции требованиям технических регламентов</p>
+                        <a class="download-holder black" href="./src/pdf/info.pdf" download>
+                            <em class="weight-700">PDF</em>
+                            <img src="./src/5block-download-icon.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-card">
+                        <p>Сертификат соответствия продукции требованиям технических регламентов</p>
+                        <a class="download-holder black" href="./src/pdf/info.pdf" download>
+                            <em class="weight-700">PDF</em>
+                            <img src="./src/5block-download-icon.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-card">
+                        <p>Сертификат соответствия продукции требованиям технических регламентов</p>
+                        <a class="download-holder black" href="./src/pdf/info.pdf" download>
+                            <em class="weight-700">PDF</em>
+                            <img src="./src/5block-download-icon.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-card">
+                        <p>Сертификат соответствия продукции требованиям технических регламентов</p>
+                        <a class="download-holder black" href="./src/pdf/info.pdf" download>
+                            <em class="weight-700">PDF</em>
+                            <img src="./src/5block-download-icon.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-env">
+            <div class="button">
+                <em class="weight-700 size-16 white">ЕЩЁ</em>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="sixth-block">
+        <p class="text block-padding">
+            Нам доверяют <img src="./src/6block-ico-1.svg"> с нами сотрудничают и работают <img src="./src/6block-ico-2.svg">
+        </p>
+        <div class="friends-holder">
+            <div class="first-row">                    
+                <div class="img-holder"><img src="./src/6block-compliment.svg"></div>
+                <div class="img-holder"><img src="./src/6block-ashan.svg"></div>
+                <div class="img-holder"><img src="./src/6block-greenfield.svg"></div>
+                <div class="img-holder"><img src="./src/6block-compas.svg"></div>
+                <div class="img-holder"><img src="./src/6block-compliment.svg"></div>
+            </div>
+            <div class="sec-row">
+                <div class="img-holder"><img src="./src/6block-greenfield.svg"></div>
+                <div class="img-holder"><img src="./src/6block-compliment.svg"></div>
+                <div class="img-holder"><img src="./src/6block-compas.svg"></div>
+                <div class="img-holder"><img src="./src/6block-compliment.svg"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="seventh-block block-padding">
+        <div class="seventh-block-holder">
+            <img class="seventh-block-img" src="./src/7block-img.svg">
+            <div class="menu-holder size-18">
+                <a>Пакеты</a>
+                <a>Пленки</a>
+                <a>О нас</a>
+                <a>Услуги</a>
+                <a>Галерея</a>
+                <a>Доставка</a>
+                <a>Контакты</a>
+                <a>Контакты</a>
+            </div> 
+            <div class="menu-768">
+                Меню <img src="./src/7block-plus.svg">
+            </div>
+            <div class="contacts">
+                <p>+7 (47148) 2-00-44</p>
+                <p class="margin">premiumupack@yandex.ru</p>
+                <div class="socials-holder">
+                    <a><img src="./src/7block-vk.svg"></a>
+                    <a><img src="./src/7block-tg.svg"></a>
+                    <a><img src="./src/7block-ok.svg"></a>
+                </div>
+            </div>
+            <div class="info">
+                <p class="info-text">© 2011-2021, ООО «ПремиумУпак»</p>
+                <div class="holder">
+                    <a>Политика конфиденциальности</a>
+                    <a>Согласие на обработку ПД</a>
+                </div>
+            </div>
+            <p class="company">
+                Сделано в kvokka
+            </p>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
