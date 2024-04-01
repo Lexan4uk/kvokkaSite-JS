@@ -29,9 +29,18 @@ a {
 .pointer {
     cursor: pointer;
 }
-body {
+
+.body-block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.site-holder {
     position: relative;
     max-width: 1920px;
+    width: 100vw;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2); 
 }
 
 .block-padding {
@@ -353,17 +362,17 @@ body {
 }
 
 .third-block-js {
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 .third-block .image-block-js {
-    width: 100vw;
+    width: 90vw;
     height: auto;
     
 }
 .third-block .image-block-js img{
-    width: 100vw;
-    height: 100vw;
+    width: 90vw;
+    height: 90vw;
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -528,7 +537,7 @@ body {
 }
 .fifth-block .content-card {
     padding: 30px;
-    height: 100%;
+    height: fit-content;
     border-top: 1px #D9D9D9 solid;
     border-bottom: 1px #D9D9D9 solid;
     justify-content: space-between;

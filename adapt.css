@@ -386,8 +386,10 @@
         display: flex;
         flex-direction: row;
         overflow-x: auto;
-        gap: 30px
+        gap: 0px;
+        
     }
+    
 
 
     .fourth-block {
